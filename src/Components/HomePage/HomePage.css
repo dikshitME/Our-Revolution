@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Coffee;
+    src: url(../../../Bread\ Coffee.otf);
+}
+@font-face {
+    font-family: Cottage;
+    src: url(DreamCottage-Regular.otf);
+}
+@font-face {
+    font-family: Navbar-font;
+    src: url(../../../Benidorm\ Trip.otf);
+}
+@font-face {
+    font-family: page-2-text;
+    src: url(../../../RusillaSerif-2OZpl.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%
+}
+.Navbar{
+    display: flex;
+    padding-top: 3vw;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 5vw;
+}
+.Navbar h1{
+    font-size: 2.5vw;
+    font-family: Navbar-font;
+    font-weight: 500;
+}
+.Navbar h2{
+    font-size: 1vw;
+}
+.Content{
+    height: 30vw;
+    width: 70vw;
+    /* background-color: red; */
+}
+.Content h1{
+    font-family: Cottage;
+    line-height: 6.5vw;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.Content h2{
+    font-family: coffee;
+    font-weight: 900;
+    line-height: 6.5vw;
+    text-transform: uppercase;
+}
+.hover-div {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .target-div {
+    width: 300px;
+    height: 150px;
+    background-color: coral;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    top: 0;
+    transition: width 0.7s ease, height 0.7s ease;
+  }
+  .target-div.expanded {
+    width: 30vw;
+    height: 51vw;
+    opacity: 1;
+  }
+ .page-2-text{
+    font-family: page-2-text;
+    font-weight: 600;
+ }

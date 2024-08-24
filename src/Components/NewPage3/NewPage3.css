@@ -1,0 +1,35 @@
+@font-face {
+    font-family: manifest;
+    src: url(../../../Fonts/Manifest.ttf);
+}
+
+@font-face {
+    font-family:RusillaSerif ;
+    src: url(../../../Fonts/RusillaSerif-2OZpl.otf);
+}
+@font-face {
+    font-family:Exo-Black;
+    src: url(../../../Fonts/Exo-Black.otf);
+}
+
+.Manifest{
+    font-family: manifest;
+    font-weight: 800;
+    font-size: 4vw;
+    letter-spacing: 0.5vw;
+    margin-top: 1vw;
+}
+.RusillaSerif{
+    margin-top: -5vw;
+    font-family: RusillaSerif;
+    letter-spacing: 0.5vw;
+}
+.Exo-Black{
+   font-family: Exo-Black;
+    line-height: 1vw;
+    transform: scaleX(1.3);
+    font-weight: 100;
+}
+.new{
+    transform: scaleX(1.4);
+}

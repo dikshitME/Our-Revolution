@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Coffee;
+    src: url(../../../Bread\ Coffee.otf);
+}
+@font-face {
+    font-family: Kiak;
+    src: url(../../../Fonts/Kiak-Bold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%
+}
+.text h1{
+    font-family: Kiak;
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
+    transform: scaleY(2);
+    margin-left: -5vw;
+}
+.text-3 h1{
+    line-height:6vw;
+    letter-spacing: -0.7vw;
+}

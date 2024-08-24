@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Coffee;
+    src: url(../../../Bread\ Coffee.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%
+}
+.text h1{
+    font-size: 2vw;
+    transform: scaleY(2);
+    margin-left: -5vw;
+}

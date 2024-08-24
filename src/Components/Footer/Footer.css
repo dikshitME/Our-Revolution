@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Cottage;
+    src: url(../../../Fonts/DreamCottage-Regular.otf);
+}
+@font-face {
+    font-family: manifest;
+    src: url(../../../Fonts/Manifest.ttf);
+}
+.bottom h1{
+    font-family: Cottage;
+    font-weight: 800;
+    letter-spacing: 0.5vw;
+}
